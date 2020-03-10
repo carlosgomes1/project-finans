@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
+    <title> Finans - finanças pessoais </title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,11 +13,90 @@
     <!-- Font awesome icons link -->
     <script src="https://kit.fontawesome.com/487bf931aa.js" crossorigin="anonymous"></script>
 
-    <title> Hello, world! </title>
+    <!-- Importando link customizado de CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
 
-    <h1 class="display-2"> Hello, world! </h1>
+    <header> <!-- Inicio header -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning"> <!-- Inicio da barra de navegação -->
+        <div class="container"> <!-- Inicio container da nav -->
+          <!-- Logo -->
+          <a href="" class="navbar-brand">
+            <img src="imagens/logo.png" width="142">
+          </a>
+
+          <!-- Menu hamburguer -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navegação -->
+          <div class="collapse navbar-collapse" id="navbar"> 
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link"> Recursos </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link"> Benefícios </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link"> Preços </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="btn btn-outline-light ml-1"> Entrar </a>
+              </li>
+            </ul>
+          </div>
+        </div> <!-- Fim container da nav -->
+      </nav> <!-- Fim barra de navegação -->
+    </header> <!-- Fim header -->
+
+    <section id="home"> <!-- Inicio da sessão principal da pag -->
+      <div class="container"> <!-- Inicio do container principal da pag -->
+        <div class="row"> <!-- Primeira row principal da pag -->
+          <div class="col-md-6 d-flex"> <!-- Coluna 1 - textos -->
+            <div class="align-self-center">
+              <h1 class="display-4"> Suas contas descomplicadas. </h1>
+              <p class="lead">
+                Finans é uma ferramenta online para a gestão financeira 
+                pessoal que vai facilitar sua vida, 
+                utilizado por mais de 1 milhão de pessoas. 
+              </p>
+
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail..." class="form-control">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary">
+                      Cadastre-se
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <p class="lead"> Disponível para
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-apple fa-lg"></i>
+                </a>
+              </p>
+
+            </div>
+          </div> <!-- Fim coluna 1 - textos -->
+          <div class="col-md-6 d-none d-md-block"> <!-- Coluna 2 - imagem -->
+            <img src="imagens/capa-mulher.png">
+          </div>
+        </div> <!-- Fim primeira row principal da pag -->
+      </div> <!-- fim do container principal da pag -->
+    </section> <!-- fim da sessão principal da pag -->
+
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
